@@ -1,7 +1,7 @@
 package sn.uidt.cisse410.model;
 
 public class Welcome {
-	private String value = "Hello world!";
+	private String value = "A demo java spring application";
 
 	public String getValue() {
 		return value;
@@ -13,7 +13,6 @@ public class Welcome {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return value;
 	}
 }
